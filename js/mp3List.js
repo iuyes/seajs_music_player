@@ -1,6 +1,6 @@
 define(function (require, exports, module) {
 	var data;
-	var $ = require('$');
+	var $ = require("$");
 	var $listContainer = $("#list");
 	module.exports = {
 		init: function (d) {

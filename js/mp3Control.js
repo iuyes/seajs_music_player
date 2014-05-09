@@ -1,6 +1,6 @@
 define(function (require, exports, module) {
 	var currentMp3Index = 0;
-	var $ = require('$');
+	var $ = require("$");
 	var mp3List = require("mp3List");
 	var $mp3PlayerContainer = $("#mp3PlayerContainer"), mp3Data;
 	module.exports = {
@@ -20,7 +20,7 @@ define(function (require, exports, module) {
 		_createMp3PlayerAndPlayOneSong: function () {
 			alert(currentMp3Index);
 			$mp3PlayerContainer.html('<a class="media">歌名:' + mp3Data[currentMp3Index].title + '</a>');
-			$('.media').media({
+			$(".media").media({
 				autoplay: 1,
 				width: 300,
 				height: 20,
