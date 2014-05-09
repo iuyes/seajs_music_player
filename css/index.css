@@ -1,0 +1,35 @@
+body, p, img, dl, dt, dd, ul, ol, h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; }
+body { position: relative; font: 12px/1.2em Simsun, Arial; color: #666; text-align: left; }
+ul, ol { list-style: none; }
+img { border: 0 none; }
+input, select { vertical-align: middle; }
+table { border-collapse: collapse; }
+s, em, i { font-style: normal; text-decoration: none; }
+a { color: #35adef; outline: none; text-decoration: none; }
+a:hover { color: #f60; text-decoration: underline; }
+.clear { *zoom: 1; }
+.clear:after { clear: both; content: "."; display: block; height: 0; overflow: hidden; visibility: hidden; zoom: 1; }
+
+#mp3PlayerContainer {
+	width: 300px;
+	height: 40px;
+	border: #000 solid 2px;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	padding: 12px 15px 6px;
+	overflow: hidden;
+}
+
+#list-wrapper {
+	position: relative;
+	width: 100px;
+}
+
+#list li {
+	cursor: pointer;
+	background-color: sandybrown;
+}
+
+#list .curr {
+	color: red;
+}
